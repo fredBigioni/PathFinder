@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>HelloCordova</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+
+    <!-- Agregar el permiso para acceder a la cámara y al almacenamiento externo -->
+    <platform name="android">
+        <config-file parent="/manifest" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.CAMERA" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config-file>
+    </platform>
+
+    <!-- Añadir más "allow-intent" si es necesario para tu aplicación -->
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- para acceder a internet -->
+    <access origin="*" />
+
+    <!-- Para poder utilizar el GPS -->
+    <platform name="android">
+        <allow-intent href="geo:*" />
+        <allow-intent href="*://*/*" />
+    </platform>
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <allow-intent href="https://*/*" />
+        <allow-intent href="http://*/*" />
+        <allow-intent href="data:*" />
+        <!-- <preference name="AndroidPersistentFileLocation" value="Compatibility" /> -->
+        <preference name="AndroidPersistentFileLocation" value="Internal" />
+    </platform>
+    <platform name="android">
+        <allow-intent href="file:*" />
+    </platform>
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        <!-- Otros permisos que puedas necesitar -->
+    </platform>
+
+</widget>
