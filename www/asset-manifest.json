@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5603b683.css",
-    "main.js": "/static/js/main.20377b25.js",
+    "main.css": "/static/css/main.17821c52.css",
+    "main.js": "/static/js/main.8fb96c18.js",
     "static/media/P1-Condor.png": "/static/media/P1-Condor.0bc421a4e230dda35080.png",
     "static/media/P1-Tero.png": "/static/media/P1-Tero.b021d07e5c5e8fc85cc6.png",
     "static/media/P1-Calandria.png": "/static/media/P1-Calandria.bd805e052a2c6dd05489.png",
@@ -35,12 +35,13 @@
     "static/media/PB-Tucuman-copia.png": "/static/media/PB-Tucuman-copia.73156a7f1cf111965bc6.png",
     "static/media/bayer.png": "/static/media/bayer.af2a19b0f6cc063e84de.png",
     "static/media/bayer-completo.png": "/static/media/bayer-completo.0764e62b353bf8c9a106.png",
+    "static/media/Helvetica_Neue_Regular.otf": "/static/media/Helvetica_Neue_Regular.081689ede9bac00ebc91.otf",
     "index.html": "/index.html",
-    "main.5603b683.css.map": "/static/css/main.5603b683.css.map",
-    "main.20377b25.js.map": "/static/js/main.20377b25.js.map"
+    "main.17821c52.css.map": "/static/css/main.17821c52.css.map",
+    "main.8fb96c18.js.map": "/static/js/main.8fb96c18.js.map"
   },
   "entrypoints": [
-    "static/css/main.5603b683.css",
-    "static/js/main.20377b25.js"
+    "static/css/main.17821c52.css",
+    "static/js/main.8fb96c18.js"
   ]
 }
